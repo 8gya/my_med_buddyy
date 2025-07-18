@@ -1,17 +1,10 @@
-# mbuddy
+MyMedBuddy - Personal Health & Medication Manager
 
-A new Flutter project.
+This is a Flutter app for managing medications, health logs, and appointments. Key features include multi-step onboarding, personalized dashboard with health statistics, medication tracking, health 
+log management with filtering, appointment scheduling, and profile settings with dark/light themes.
 
-## Getting Started
+The app uses Provider pattern for state management, SharedPreferences for data persistence, and HTTP for API integration.
 
-This project is a starting point for a Flutter application.
+For the Project structure we have dedicated folders for screens, providers, services, and custom widgets folders. Required packages are provider, shared_preferences, http, and cupertino_icons.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# my_med_buddyy
+To use: ensure Flutter SDK is installed, open the application with VSCode.
