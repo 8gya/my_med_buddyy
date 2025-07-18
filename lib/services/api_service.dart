@@ -26,10 +26,8 @@ class HealthTip {
 }
 
 class ApiService {
-  static const String _baseUrl =
-      'https://api.quotable.io'; // Using quotable API as health API alternative
+  static const String _baseUrl = 'https://api.quotable.io';
 
-  // Fetch health tips (using quotes API as alternative)
   static Future<List<HealthTip>> fetchHealthTips() async {
     try {
       final response = await http.get(
